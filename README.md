@@ -35,6 +35,7 @@ cd SmartTrack-Vision-Suite
 # Create environment (recommended)
 python -m venv .venv
 .\.venv\Scripts\activate       # Windows
+```
 
 ## Install dependencies
 pip install -r requirements.txt
@@ -43,6 +44,7 @@ pip install -r requirements.txt
 
 ```bash
 streamlit run streamlit_app/streamlit_dashboard.py
+```
 
 ## Project structure
 .
