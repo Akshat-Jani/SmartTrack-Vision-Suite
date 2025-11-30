@@ -1,0 +1,15 @@
+[project]
+name = "smarttrack-vision-suite"
+version = "1.0.0"
+description = "SmartTrack Vision Suite — object tracking, analytics and Streamlit dashboard"
+authors = [{name = "Your Name"}]
+readme = "README.md"
+requires-python = ">=3.9"
+
+[project.dependencies]
+numpy = ">=1.25"
+opencv-python = ">=4.8"
+pyyaml = ">=6.0"
+
+[project.scripts]
+smarttrack = "smarttrack.cli:main"

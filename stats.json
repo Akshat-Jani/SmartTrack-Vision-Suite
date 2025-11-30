@@ -1,0 +1,33 @@
+{
+  "run_time_utc": "2025-11-26T10:40:22Z",
+  "device": "cuda",
+  "input_size": [
+    640,
+    640
+  ],
+  "model_file_size_bytes": 6549796,
+  "model_sha256": "f59b3d833e2ff32e194b5bb8e08d211dc7c5bdf144b90d2c8412c47ccfc83b36",
+  "model_name_hint": "D:\\Python_Programs\\Projects\\Smarttrack\\yolov8n.pt",
+  "num_params": 0,
+  "inference": {
+    "mean_ms": 20.780980514828116,
+    "median_ms": 20.20180004183203,
+    "p95_ms": 25.198000017553568,
+    "iters": 200,
+    "rss_peak_bytes_sampled": 2882187264,
+    "times_sample_ms": [
+      20.20010002888739,
+      21.075099939480424,
+      20.108799915760756,
+      19.3274999037385,
+      20.606399979442358,
+      20.466099958866835,
+      20.251199835911393,
+      20.20350005477667,
+      20.602800184860826,
+      19.615799887105823
+    ],
+    "inference_only_fps": 48.120924769957675
+  },
+  "rss_bytes_after_start": 2882252800
+}

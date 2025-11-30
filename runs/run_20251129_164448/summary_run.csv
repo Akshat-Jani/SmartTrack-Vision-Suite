@@ -1,0 +1,2 @@
+total_frames,avg_fps,fps_std,fps_stability,avg_objects_per_frame,max_objects_in_frame,scene_density,total_tracks,median_track_length_frames,median_fps_used,mean_track_speed_(pixel/sec.)
+266,9.425244360902257,1.6070191779115854,Unstable,4.830827067669173,8,Medium,18,60.0,9.67,59.621
