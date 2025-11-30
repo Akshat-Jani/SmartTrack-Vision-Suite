@@ -3,9 +3,7 @@
 **SmartTrack Vision Suite** — Real-time object tracking + Advanced analytics Dashboard (YOLOv8 + ByteTrack + Streamlit)  
 Includes: detector → tracker → analytics pipeline, and a Streamlit dashboard for visual exploration.
 
-[Demo]  
-(assets/test.gif)![Uploading test.gif…]()
-
+[Demo]  (assets/test.gif)
 
 ## Quick highlights
 - YOLOv8-based detection (detector in separate repo/package)
@@ -13,14 +11,43 @@ Includes: detector → tracker → analytics pipeline, and a Streamlit dashboard
 - Analytics engine: counts, trajectories, fps, heatmaps, CSV/JSON outputs
 - Streamlit dashboard for interactive inspection
 
-Notes about assets
-Screenshots and high-res images are hosted externally (or in the Releases) to keep the repo lightweight. If you want to host images externally, replace demos/demo.gif in this README with the absolute URL.
+## 🔥 Features
 
-Project structure
+- 🚗 YOLOv8-based object detection  
+- 🧭 ByteTrack-style multi-object tracking  
+- 📈 Detailed analytics:  
+  - object counts  
+  - trajectories  
+  - speeds  
+  - heatmaps  
+  - time-series graphs  
+- 📊 Complete Streamlit dashboard  
+- 🎥 Support for any MP4 input video  
+- 📁 Auto-generated CSV/JSON stats  
+- 🖼 Modular codebase for detectors, trackers, and analytics  
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/Akshat-Jani/SmartTrack-Vision-Suite.git
+cd SmartTrack-Vision-Suite
+
+# Create environment (recommended)
+python -m venv .venv
+.\.venv\Scripts\activate       # Windows
+
+## Install dependencies
+pip install -r requirements.txt
+
+## 🚀 Run the Streamlit Dashboard
+
+```bash
+streamlit run streamlit_app/streamlit_dashboard.py
+
+## Project structure
 .
 ├─ src/
 │  ├─ smarttrack/                # CLI + small wrappers
-│  └─ smarttrack_tracker/        # tracker module
 ├─ streamlit_app/
 ├─ demos/
 ├─ docs/
