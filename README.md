@@ -6,7 +6,7 @@ Includes: detector → tracker → analytics pipeline and a Streamlit dashboard 
 ## Quick highlights
 - YOLOv8-based detection (detector in separate repo/package)
 - ByteTrack-style tracking pipeline
-- Analytics engine: counts, trajectories, speeds, heatmaps, CSV/JSON outputs
+- Analytics engine: counts, trajectories, fps, heatmaps, CSV/JSON outputs
 - Streamlit dashboard for interactive inspection
 
 Notes about assets
