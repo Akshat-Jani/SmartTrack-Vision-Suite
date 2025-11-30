@@ -4,7 +4,8 @@
 Includes: detector → tracker → analytics pipeline, and a Streamlit dashboard for visual exploration.
 
 [Demo]  
-(assets/test.gif)
+(assets/test.gif)![Uploading test.gif…]()
+
 
 ## Quick highlights
 - YOLOv8-based detection (detector in separate repo/package)
