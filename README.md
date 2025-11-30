@@ -38,7 +38,9 @@ python -m venv .venv
 ```
 
 ## Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ## 🚀 Run the Streamlit Dashboard
 
@@ -47,14 +49,16 @@ streamlit run streamlit_app/streamlit_dashboard.py
 ```
 
 ## Project structure
-.
-├─ src/
-│  ├─ smarttrack/                # CLI + small wrappers
-├─ streamlit_app/
-├─ demos/
-├─ docs/
-├─ scripts/
-├─ README.md
-└─ pyproject.toml
+├── src/
+│ └── smarttrack/ # tracking + analytics Python modules
+├── streamlit_app/ # Streamlit dashboard
+├── scripts/ # helper scripts (optional)
+├── configs/ # YOLO/ByteTrack configs
+├── demos/ # demo videos/gifs
+├── assets/ # images used in README
+├── docs/ # project docs, explanation PDFs
+├── requirements.txt
+├── README.md
+└── pyproject.toml
 
 
