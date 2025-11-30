@@ -49,6 +49,7 @@ streamlit run streamlit_app/streamlit_dashboard.py
 ```
 
 ## Project structure
+.
 ├── src/
 │ └── smarttrack/ # tracking + analytics Python modules
 ├── streamlit_app/ # Streamlit dashboard
