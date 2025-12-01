@@ -86,16 +86,16 @@ SmartTrack-Vision_Suite/
 ## 📸 Gallery — Streamlit Dashboard & Analyzer
 
 ### Dashboard — Upload & Run
-![Dashboard Upload](assets/SmartTrack_Dashboard_001.png)
+![Dashboard Upload](assets/SmartTrack Dashboard_001.png)
 
 ### Explore Runs — Summary & Time Series
-![Explore Runs](assets/SmartTrack_Dashboard_2_001.png)
+![Explore Runs](assets/SmartTrack Dashboard_2_001.png)
 
 ### Trajectories (Top N)
-![Trajectories](assets/SmartTrack_Dashboard_2_002.png)
+![Trajectories](assets/SmartTrack Dashboard_2_002.png)
 
 ### Detection Center Heatmap
-![Heatmap](assets/SmartTrack_Dashboard_2_003.png)
+![Heatmap](assets/SmartTrack Dashboard_2_003.png)
 
 ### Interactive Time-series (FPS, counts)
-![Interactive Charts](assets/SmartTrack_Dashboard_2_004.png)
+![Interactive Charts](assets/SmartTrack Dashboard_2_004.png)
