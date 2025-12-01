@@ -3,7 +3,7 @@
 **SmartTrack Vision Suite** — Real-time object tracking + Advanced Analytics Dashboard (YOLOv8 + ByteTrack + Streamlit)  
 Includes: detector → tracker → analytics pipeline, and a Streamlit dashboard for visual exploration.
 
-![Demo](assets/test.gif)
+![Demo](assets/gifs/test.gif)
 
 ![Demo](assets/plots/trajectories.png)
 
@@ -92,9 +92,6 @@ SmartTrack-Vision_Suite/
 
 ### Explore Runs — Summary & Time Series
 ![Explore Runs](assets/Dashboard/SmartTrack%20Dashboard_2_001.png)
-
-### Trajectories (Top N)
-![Trajectories](assets/Dashboard/SmartTrack%20Dashboard_2_002.png)
 
 ### Detection Center Heatmap
 ![Heatmap](assets/Dashboard/SmartTrack%20Dashboard_2_003.png)
