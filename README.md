@@ -4,6 +4,7 @@
 Includes: detector → tracker → analytics pipeline, and a Streamlit dashboard for visual exploration.
 
 ![Demo](assets/test.gif)
+
 ![Demo](assets/plots/trajectories.png)
 
 ## Quick highlights
