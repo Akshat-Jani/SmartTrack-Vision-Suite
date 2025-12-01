@@ -1,9 +1,9 @@
 ﻿# SmartTrack Vision Suite
 
-**SmartTrack Vision Suite** — Real-time object tracking + Advanced analytics Dashboard (YOLOv8 + ByteTrack + Streamlit)  
+**SmartTrack Vision Suite** — Real-time object tracking + Advanced Analytics Dashboard (YOLOv8 + ByteTrack + Streamlit)  
 Includes: detector → tracker → analytics pipeline, and a Streamlit dashboard for visual exploration.
 
-[Demo]  (assets/test.gif)
+![Demo](assets/test.gif)
 
 ## Quick highlights
 - YOLOv8-based detection (detector in separate repo/package)
@@ -49,7 +49,8 @@ streamlit run streamlit_app/streamlit_dashboard.py
 ```
 
 ## Project structure
-.
+```
+SmartTrack-Vision_Suite/
 ├── src/
 │ └── smarttrack/ # tracking + analytics Python modules
 ├── streamlit_app/ # Streamlit dashboard
@@ -61,5 +62,5 @@ streamlit run streamlit_app/streamlit_dashboard.py
 ├── requirements.txt
 ├── README.md
 └── pyproject.toml
-
+```
 
