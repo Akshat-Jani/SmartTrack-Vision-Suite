@@ -99,6 +99,3 @@ SmartTrack-Vision_Suite/
 
 ### Interactive Time-series (FPS, counts)
 ![Interactive Charts](assets/SmartTrack_Dashboard_2_004.png)
-
-### About / About page
-![About Page](assets/SmartTrack_Dashboard_3_001.png)
