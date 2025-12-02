@@ -1,7 +1,7 @@
 ﻿# SmartTrack Vision Suite
 
 **SmartTrack Vision Suite** — Real-time object tracking + Advanced Analytics Dashboard (YOLOv8 + ByteTrack + Streamlit)  
-Includes: detector → tracker → analytics pipeline, and a Streamlit dashboard for visual exploration.
+**Includes: detector** → tracker → analytics pipeline, and a Streamlit dashboard for visual exploration.
 
   ![Demo](assets/gifs/test.gif)
 
@@ -27,6 +27,18 @@ Includes: detector → tracker → analytics pipeline, and a Streamlit dashboard
 - 🎥 Support for any MP4 input video  
 - 📁 Auto-generated CSV/JSON stats  
 - 🖼 Modular codebase for detectors, trackers, and analytics  
+
+## 🛠 How It Works (Pipeline)
+1. **Upload Video** via Streamlit UI  
+2. **Detect Objects** using YOLOv8  
+3. **Track Multiple IDs** using ByteTrack logic  
+4. **Analyze Results**  
+   - trajectories  
+   - heatmaps  
+   - speeds  
+   - time-series  
+   - CSV/JSON reports  
+5. **Explore in Dashboard** with interactive graphs (Plotly)
 
 ## 📦 Installation
 
