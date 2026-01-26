@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+src/smarttrack/__init__.py
+src/smarttrack/analyze_all.py
+src/smarttrack/pipeline_tracker.py
+src/smarttrack.egg-info/PKG-INFO
+src/smarttrack.egg-info/SOURCES.txt
+src/smarttrack.egg-info/dependency_links.txt
+src/smarttrack.egg-info/top_level.txt

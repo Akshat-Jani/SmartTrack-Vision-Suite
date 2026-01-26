@@ -1,0 +1,12 @@
+# paths
+source: "data/cars.mp4"
+model_path: "yolov8n.pt"
+tracker_cfg: "configs/bytetrack.yaml"
+project: "runs/track"
+name: null  # null -> auto: pipeline_<video-name>
+
+# runtime
+conf: 0.10
+stream: true
+show: false
+verbose: false

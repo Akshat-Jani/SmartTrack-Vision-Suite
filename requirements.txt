@@ -1,0 +1,32 @@
+# Core ML / DL
+torch>=2.5.0
+torchvision>=0.20.0
+torchaudio>=2.5.0
+
+# YOLOv8
+ultralytics>=8.3.0
+
+# Computer Vision
+opencv-python>=4.8.0
+
+# Tracking / Math
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Data & Logging
+pandas>=2.0.0
+
+# System / Benchmarking
+psutil>=5.9.0
+
+# Visualization (used earlier phases / optional dashboards)
+matplotlib>=3.7.0
+seaborn>=0.13.0
+plotly>=5.18.0
+
+# Utilities
+tqdm>=4.66.0
+PyYAML>=6.0
+
+# dashboard (supports python 3.9 - 3.13)
+streamlit

@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+.venv/
+
+# Data / runs / outputs
+runs/
+outputs/
+models/
+*.pt
+*.pth
+*.h5
+*.ckpt
+
+
+# Large media (we'll keep only small demos)
+*.mp4
+*.avi
+*.mov
+*.gif
+*.docx
+
+# Jupyter
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
